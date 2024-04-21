@@ -6,6 +6,7 @@ EverNoteX is a versatile note-taking app designed to help you organize your thou
     <img src="screenshots/screenshot1.png" alt="Screenshot 1" style="max-width: 100%; height: auto; margin-right: 10px;">
     <img src="screenshots/screenshot2.png" alt="Screenshot 2" style="max-width: 100%; height: auto; margin-right: 10px;">
     <img src="screenshots/screenshot3.png" alt="Screenshot 3" style="max-width: 100%; height: auto;">
+    <img src="screenshots/screenshot4.png" alt="Screenshot 4" style="max-width: 100%; height: auto;">
 </div>
 
 <!-- ## Overview
