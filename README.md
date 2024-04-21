@@ -2,12 +2,13 @@
 
 EverNoteX is a versatile note-taking app designed to help you organize your thoughts, ideas, and tasks effortlessly. With its intuitive interface and powerful features, EverNoteX empowers you to capture, manage, and access your notes anytime, anywhere.
 
-<div style="display: flex; justify-content: center;">
-    <img src="app/src/main/res/drawable/screenshot1.png" style="max-width: 100%; height: auto; margin-right: 10px;" alt="Home Page">
-    <img src="app/src/main/res/drawable/screenshot2.png" style="max-width: 100%; height: auto; margin-right: 10px;" alt="Add Note Page">
-    <img src="app/src/main/res/drawable/screenshot3.png" style="max-width: 100%; height: auto; margin-right: 10px;" alt="Edit Note Page">
-    <img src="app/src/main/res/drawable/screenshot4.png" style="max-width: 100%; height: auto; margin-right: 10px;" alt="Note List Page">
-</div>
+| Home Page | Add Note Page |
+|:---------:|:-------------:|
+| ![Home Page](app/src/main/res/drawable/screenshot1.png) | ![Add Note Page](app/src/main/res/drawable/screenshot2.png) |
+
+| Edit Note Page | Note List Page |
+|:--------------:|:--------------:|
+| ![Edit Note Page](app/src/main/res/drawable/screenshot3.png) | ![Note List Page](app/src/main/res/drawable/screenshot4.png) |
 
 <!-- ## Overview
 
