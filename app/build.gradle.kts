@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid)
     id("kotlin-kapt")
     id("kotlin-parcelize")
-    id ("androidx.navigation.safeargs")
+    id("androidx.navigation.safeargs")
 }
 
 android {
@@ -38,20 +38,21 @@ android {
     }
 
     buildFeatures {
-        dataBinding=true
-        viewBinding=true
+        dataBinding = true
+        viewBinding = true
     }
 }
 
 dependencies {
 
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
-    val room_version = "2.6.1"
-    val lifecycle_version  = "2.7.0"
-    val coroutine_version  = "1.8.1-Beta"
+
+    val roomVersion = "2.6.1"
+    val lifecycleVersion = "2.7.0"
+    val coroutineVersion = "1.8.1-Beta"
     val navVersion = "2.7.7"
 
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -62,25 +63,24 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // Room
-    implementation ("androidx.room:room-runtime:$room_version")
-    kapt("androidx.room:room-compiler:$room_version")
+    implementation("androidx.room:room-runtime:$roomVersion")
+    kapt("androidx.room:room-compiler:$roomVersion")
 
     // Kotlin Extensions and Coroutines support for Room
-    implementation("androidx.room:room-ktx:$room_version")
+    implementation("androidx.room:room-ktx:$roomVersion")
 
     // ViewModel
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycleVersion")
 
     // LiveData
-    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
 
     // Coroutine
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutineVersion")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineVersion")
 
     // Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
-
 }
